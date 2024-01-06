@@ -53,12 +53,10 @@ public class Main extends Application {
         });
 
         canvas.setOnMousePressed(event -> {
-            System.out.println(1);
             canvas.getGraphicsContext2D().beginPath();
         });
 
         canvas.setOnMouseReleased(event -> {
-            System.out.println(2);
             canvas.getGraphicsContext2D().closePath();
         });
 
